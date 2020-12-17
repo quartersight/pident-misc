@@ -10,4 +10,4 @@ sleep 1
 echo "Tunnel open."
 echo "Press ctrl+c to exit."
 ssh -L 59000:localhost:5901 -C -N -l $user $ipaddr
-
+echo "Connect via VNCConnect now to localhost:59000"
